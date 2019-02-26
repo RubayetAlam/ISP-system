@@ -1,0 +1,144 @@
+F:\CSharp\FinalProject\FP_V1\Presentation Layer\bin\Debug\Presentation Layer.exe.config
+F:\CSharp\FinalProject\FP_V1\Presentation Layer\bin\Debug\Presentation Layer.exe
+F:\CSharp\FinalProject\FP_V1\Presentation Layer\bin\Debug\Presentation Layer.pdb
+F:\CSharp\FinalProject\FP_V1\Presentation Layer\bin\Debug\Bunifu_UI_v1.5.3.dll
+F:\CSharp\FinalProject\FP_V1\Presentation Layer\obj\Debug\Presentation Layer.csprojResolveAssemblyReference.cache
+F:\CSharp\FinalProject\FP_V1\Presentation Layer\obj\Debug\Presentation_Layer.Properties.Resources.resources
+F:\CSharp\FinalProject\FP_V1\Presentation Layer\obj\Debug\Presentation Layer.csproj.GenerateResource.Cache
+F:\CSharp\FinalProject\FP_V1\Presentation Layer\obj\Debug\Presentation Layer.csproj.CoreCompileInputs.cache
+F:\CSharp\FinalProject\FP_V1\Presentation Layer\obj\Debug\Presentation Layer.exe
+F:\CSharp\FinalProject\FP_V1\Presentation Layer\obj\Debug\Presentation Layer.pdb
+F:\CSharp\FinalProject\FP_V1\Presentation Layer\obj\Debug\Presentation_Layer.FLogin.resources
+F:\CSharp\FinalProject\FP_V1\Presentation Layer\obj\Debug\Presentation_Layer.FHome.resources
+F:\CSharp\FinalProject\FP_V1\Presentation Layer\obj\Debug\Presentation_Layer.FManageCustomer.resources
+F:\CSharp\FinalProject\FP_V1\Presentation Layer\obj\Debug\Presentation_Layer.FNewEntry.resources
+G:\FP_V1\Presentation Layer\bin\Debug\Presentation Layer.exe.config
+G:\FP_V1\Presentation Layer\bin\Debug\Presentation Layer.exe
+G:\FP_V1\Presentation Layer\bin\Debug\Presentation Layer.pdb
+G:\FP_V1\Presentation Layer\obj\Debug\Presentation Layer.csprojResolveAssemblyReference.cache
+G:\FP_V1\Presentation Layer\obj\Debug\Presentation_Layer.FLogin.resources
+G:\FP_V1\Presentation Layer\obj\Debug\Presentation_Layer.FHome.resources
+G:\FP_V1\Presentation Layer\obj\Debug\Presentation_Layer.FManageCustomer.resources
+G:\FP_V1\Presentation Layer\obj\Debug\Presentation_Layer.FNewEntry.resources
+G:\FP_V1\Presentation Layer\obj\Debug\Presentation_Layer.Properties.Resources.resources
+G:\FP_V1\Presentation Layer\obj\Debug\Presentation Layer.csproj.GenerateResource.Cache
+G:\FP_V1\Presentation Layer\obj\Debug\Presentation Layer.csproj.CoreCompileInputs.cache
+G:\FP_V1\Presentation Layer\obj\Debug\Presentation Layer.exe
+G:\FP_V1\Presentation Layer\obj\Debug\Presentation Layer.pdb
+G:\FP_V1\Presentation Layer\obj\Debug\Presentation_Layer.F0.resources
+G:\FP_V1\Presentation Layer\obj\Debug\Presentation_Layer.FCustomerList.resources
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\bin\Debug\Presentation Layer.exe.config
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\bin\Debug\Presentation Layer.exe
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\bin\Debug\Presentation Layer.pdb
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\bin\Debug\Bunifu_UI_v1.5.3.dll
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\obj\Debug\Presentation Layer.csprojResolveAssemblyReference.cache
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FLogin.resources
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FHome.resources
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FManageCustomer.resources
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FNewEntry.resources
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FCustomerList.resources
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FManageEmployee.resources
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.Properties.Resources.resources
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\obj\Debug\Presentation Layer.csproj.GenerateResource.Cache
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\obj\Debug\Presentation Layer.csproj.CoreCompileInputs.cache
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\obj\Debug\Presentation Layer.exe
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\obj\Debug\Presentation Layer.pdb
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FAddNewEmployee.resources
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FEmployeeList.resources
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FForgotPassword.resources
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FPackageInfo.resources
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FAddNewPackage.resources
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FBackupData.resources
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FManagePayment.resources
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FDuePayment.resources
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FFinance.resources
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FEmployeeSalary.resources
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FExpenditure.resources
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FTotalCost.resources
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FAllPaymentList.resources
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FReports.resources
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FMonthlyCollection.resources
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FMonthlyExpense.resources
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FAreawiseCollection.resources
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FAreawiseConnection.resources
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FProfitPerMonth.resources
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FAdmin.resources
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\bin\Debug\DB\IspDB.mdf
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\bin\Debug\DB\IspDB_log.ldf
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\bin\Debug\Business Logic Layer.dll
+F:\CSharp\FinalProject\FP_V2\Presentation Layer\bin\Debug\Business Logic Layer.pdb
+M:\FP_V2\Presentation Layer\obj\Debug\Presentation Layer.csprojResolveAssemblyReference.cache
+M:\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FLogin.resources
+M:\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FForgotPassword.resources
+M:\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FHome.resources
+M:\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FManageCustomer.resources
+M:\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FNewEntry.resources
+M:\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FCustomerList.resources
+M:\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FManageEmployee.resources
+M:\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FAddNewEmployee.resources
+M:\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FEmployeeList.resources
+M:\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FManagePayment.resources
+M:\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FDuePayment.resources
+M:\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FAllPaymentList.resources
+M:\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FFinance.resources
+M:\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FTotalCost.resources
+M:\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FExpenditure.resources
+M:\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FEmployeeSalary.resources
+M:\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FPackageInfo.resources
+M:\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FAddNewPackage.resources
+M:\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FReports.resources
+M:\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FBackupData.resources
+M:\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FMonthlyCollection.resources
+M:\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FMonthlyExpense.resources
+M:\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FAreawiseCollection.resources
+M:\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FAreawiseConnection.resources
+M:\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FProfitPerMonth.resources
+M:\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.FAdmin.resources
+M:\FP_V2\Presentation Layer\obj\Debug\Presentation_Layer.Properties.Resources.resources
+M:\FP_V2\Presentation Layer\obj\Debug\Presentation Layer.csproj.GenerateResource.Cache
+M:\FP_V2\Presentation Layer\obj\Debug\Presentation Layer.csproj.CoreCompileInputs.cache
+M:\FP_V2\Presentation Layer\obj\Debug\Presentation Layer.exe
+M:\FP_V2\Presentation Layer\obj\Debug\Presentation Layer.pdb
+M:\FP_V2\Presentation Layer\bin\Debug\DB\IspDB.mdf
+M:\FP_V2\Presentation Layer\bin\Debug\DB\IspDB_log.ldf
+M:\FP_V2\Presentation Layer\bin\Debug\Presentation Layer.exe.config
+M:\FP_V2\Presentation Layer\bin\Debug\Presentation Layer.exe
+M:\FP_V2\Presentation Layer\bin\Debug\Presentation Layer.pdb
+M:\FP_V2\Presentation Layer\bin\Debug\Bunifu_UI_v1.5.3.dll
+E:\C# Codes\Pro\Presentation Layer\bin\Debug\DB\IspDB.mdf
+E:\C# Codes\Pro\Presentation Layer\bin\Debug\DB\IspDB_log.ldf
+E:\C# Codes\Pro\Presentation Layer\bin\Debug\Presentation Layer.exe.config
+E:\C# Codes\Pro\Presentation Layer\bin\Debug\Presentation Layer.exe
+E:\C# Codes\Pro\Presentation Layer\bin\Debug\Presentation Layer.pdb
+E:\C# Codes\Pro\Presentation Layer\obj\Debug\Presentation Layer.csprojResolveAssemblyReference.cache
+E:\C# Codes\Pro\Presentation Layer\obj\Debug\Presentation_Layer.FLogin.resources
+E:\C# Codes\Pro\Presentation Layer\obj\Debug\Presentation_Layer.FForgotPassword.resources
+E:\C# Codes\Pro\Presentation Layer\obj\Debug\Presentation_Layer.FHome.resources
+E:\C# Codes\Pro\Presentation Layer\obj\Debug\Presentation_Layer.FManageCustomer.resources
+E:\C# Codes\Pro\Presentation Layer\obj\Debug\Presentation_Layer.FNewEntry.resources
+E:\C# Codes\Pro\Presentation Layer\obj\Debug\Presentation_Layer.FCustomerList.resources
+E:\C# Codes\Pro\Presentation Layer\obj\Debug\Presentation_Layer.FManageEmployee.resources
+E:\C# Codes\Pro\Presentation Layer\obj\Debug\Presentation_Layer.FAddNewEmployee.resources
+E:\C# Codes\Pro\Presentation Layer\obj\Debug\Presentation_Layer.FEmployeeList.resources
+E:\C# Codes\Pro\Presentation Layer\obj\Debug\Presentation_Layer.FManagePayment.resources
+E:\C# Codes\Pro\Presentation Layer\obj\Debug\Presentation_Layer.FDuePayment.resources
+E:\C# Codes\Pro\Presentation Layer\obj\Debug\Presentation_Layer.FAllPaymentList.resources
+E:\C# Codes\Pro\Presentation Layer\obj\Debug\Presentation_Layer.FFinance.resources
+E:\C# Codes\Pro\Presentation Layer\obj\Debug\Presentation_Layer.FTotalCost.resources
+E:\C# Codes\Pro\Presentation Layer\obj\Debug\Presentation_Layer.FExpenditure.resources
+E:\C# Codes\Pro\Presentation Layer\obj\Debug\Presentation_Layer.FEmployeeSalary.resources
+E:\C# Codes\Pro\Presentation Layer\obj\Debug\Presentation_Layer.FPackageInfo.resources
+E:\C# Codes\Pro\Presentation Layer\obj\Debug\Presentation_Layer.FAddNewPackage.resources
+E:\C# Codes\Pro\Presentation Layer\obj\Debug\Presentation_Layer.FReports.resources
+E:\C# Codes\Pro\Presentation Layer\obj\Debug\Presentation_Layer.FBackupData.resources
+E:\C# Codes\Pro\Presentation Layer\obj\Debug\Presentation_Layer.FMonthlyCollection.resources
+E:\C# Codes\Pro\Presentation Layer\obj\Debug\Presentation_Layer.FMonthlyExpense.resources
+E:\C# Codes\Pro\Presentation Layer\obj\Debug\Presentation_Layer.FAreawiseCollection.resources
+E:\C# Codes\Pro\Presentation Layer\obj\Debug\Presentation_Layer.FAreawiseConnection.resources
+E:\C# Codes\Pro\Presentation Layer\obj\Debug\Presentation_Layer.FProfitPerMonth.resources
+E:\C# Codes\Pro\Presentation Layer\obj\Debug\Presentation_Layer.FAdmin.resources
+E:\C# Codes\Pro\Presentation Layer\obj\Debug\Presentation_Layer.Properties.Resources.resources
+E:\C# Codes\Pro\Presentation Layer\obj\Debug\Presentation Layer.csproj.GenerateResource.Cache
+E:\C# Codes\Pro\Presentation Layer\obj\Debug\Presentation Layer.csproj.CoreCompileInputs.cache
+E:\C# Codes\Pro\Presentation Layer\obj\Debug\Presentation Layer.exe
+E:\C# Codes\Pro\Presentation Layer\obj\Debug\Presentation Layer.pdb

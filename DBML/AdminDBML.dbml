@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="IspDB" Class="AdminDBMLDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\DB\IspDB.mdf;Integrated Security=True" SettingsObjectName="Presentation_Layer.Properties.Settings" SettingsPropertyName="IspDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.AdminTable" Member="AdminTables">
+    <Type Name="AdminTable">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="AdminName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="AdminUserName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="AdminPassword" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="AdminDOB" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CustomerAmountTable" Member="CustomerAmountTables">
+    <Type Name="CustomerAmountTable">
+      <Column Name="CustomerAmount" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="CustomerID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="CustomerAmountTable_CutomerNameTable" Member="CutomerNameTables" ThisKey="CustomerID" OtherKey="CustomerID" Type="CutomerNameTable" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CustomerContactTable" Member="CustomerContactTables">
+    <Type Name="CustomerContactTable">
+      <Column Name="Id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CustomerID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CustomerMobile" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CustomerEmail" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CustomerLocationID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Association Name="CustomerContactTable_CutomerNameTable" Member="CutomerNameTables" ThisKey="CustomerID" OtherKey="CustomerID" Type="CutomerNameTable" />
+      <Association Name="CustomerLocationTable_CustomerContactTable" Member="CustomerLocationTable" ThisKey="CustomerLocationID" OtherKey="CustomerLocationID" Type="CustomerLocationTable" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CustomerLocationTable" Member="CustomerLocationTables">
+    <Type Name="CustomerLocationTable">
+      <Column Name="CustomerLocationID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CustomerArea" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CustomerLocation" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Association Name="CustomerLocationTable_CustomerContactTable" Member="CustomerContactTables" ThisKey="CustomerLocationID" OtherKey="CustomerLocationID" Type="CustomerContactTable" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CustomerNetInfoTAble" Member="CustomerNetInfoTAbles">
+    <Type Name="CustomerNetInfoTAble">
+      <Column Name="CustomerID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CustomerStartDate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="CustomerPackageName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CustomerIPAddress" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="CustomerNetInfoTAble_CutomerNameTable" Member="CutomerNameTables" ThisKey="CustomerID" OtherKey="CustomerID" Type="CutomerNameTable" />
+      <Association Name="Packagetable_CustomerNetInfoTAble" Member="Packagetable" ThisKey="CustomerPackageName" OtherKey="CustomerPackageName" Type="Packagetable" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CustomerPaidTable" Member="CustomerPaidTables">
+    <Type Name="CustomerPaidTable">
+      <Column Name="CustomerID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CustomerYear" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CustomerMonth" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="PaidStatus" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CutomerNameTable" Member="CutomerNameTables">
+    <Type Name="CutomerNameTable">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CustomerName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CustomreNID" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CustomerID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="CustomerContactTable_CutomerNameTable" Member="CustomerContactTable" ThisKey="CustomerID" OtherKey="CustomerID" Type="CustomerContactTable" IsForeignKey="true" />
+      <Association Name="CustomerNetInfoTAble_CutomerNameTable" Member="CustomerNetInfoTAble" ThisKey="CustomerID" OtherKey="CustomerID" Type="CustomerNetInfoTAble" IsForeignKey="true" />
+      <Association Name="CustomerAmountTable_CutomerNameTable" Member="CustomerAmountTable" ThisKey="CustomerID" OtherKey="CustomerID" Type="CustomerAmountTable" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EmployeeContactInfoTable" Member="EmployeeContactInfoTables">
+    <Type Name="EmployeeContactInfoTable">
+      <Column Name="EmployeeID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EmployeeNID" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="EmployeeMobile" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="EmployeeEmail" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="EmployeeAddress" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="EmployeeContactInfoTable_EmployeeNameTable" Member="EmployeeNameTables" ThisKey="EmployeeID" OtherKey="EmployeeID" Type="EmployeeNameTable" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EmployeeJoinDateTable" Member="EmployeeJoinDateTables">
+    <Type Name="EmployeeJoinDateTable">
+      <Column Name="EmployeeID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EmployeeJoinDate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Association Name="EmployeeJoinDateTable_EmployeeNameTable" Member="EmployeeNameTables" ThisKey="EmployeeID" OtherKey="EmployeeID" Type="EmployeeNameTable" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EmployeeNameTable" Member="EmployeeNameTables">
+    <Type Name="EmployeeNameTable">
+      <Column Name="EmployeeID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="EmployeeName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="EmployeePassword" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="EmployeeModeratorAccess" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Association Name="EmployeeJoinDateTable_EmployeeNameTable" Member="EmployeeJoinDateTable" ThisKey="EmployeeID" OtherKey="EmployeeID" Type="EmployeeJoinDateTable" IsForeignKey="true" />
+      <Association Name="EmployeeContactInfoTable_EmployeeNameTable" Member="EmployeeContactInfoTable" ThisKey="EmployeeID" OtherKey="EmployeeID" Type="EmployeeContactInfoTable" IsForeignKey="true" />
+      <Association Name="EmployeeSalaryTable_EmployeeNameTable" Member="EmployeeSalaryTable" ThisKey="EmployeeID" OtherKey="EmployeeID" Type="EmployeeSalaryTable" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EmployeeSalaryManage" Member="EmployeeSalaryManages">
+    <Type Name="EmployeeSalaryManage">
+      <Column Name="EmployeeID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EmployeeName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="EmployeeSalaryYear" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="EmployeeSalaryMonth" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EmployeeSalaryTable" Member="EmployeeSalaryTables">
+    <Type Name="EmployeeSalaryTable">
+      <Column Name="EmployeeID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EmployeeSalary" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Association Name="EmployeeSalaryTable_EmployeeNameTable" Member="EmployeeNameTables" ThisKey="EmployeeID" OtherKey="EmployeeID" Type="EmployeeNameTable" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EmployeeSalaryUpdateTable" Member="EmployeeSalaryUpdateTables">
+    <Type Name="EmployeeSalaryUpdateTable">
+      <Column Name="EmployeeID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Year" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Month" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PaidStatus" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ExpenTable" Member="ExpenTables">
+    <Type Name="ExpenTable">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ExpenditureNumber" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ExpenditureType" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ExpenditureName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Year" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Month" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Amount" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Packagetable" Member="Packagetables">
+    <Type Name="Packagetable">
+      <Column Name="CustomerPackageName" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PackageSpeed" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="PackagePrice" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Association Name="Packagetable_CustomerNetInfoTAble" Member="CustomerNetInfoTAbles" ThisKey="CustomerPackageName" OtherKey="CustomerPackageName" Type="CustomerNetInfoTAble" />
+    </Type>
+  </Table>
+</Database>
